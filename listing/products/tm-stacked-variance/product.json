@@ -2,40 +2,31 @@
   "name": "Tm Stacked Variance",
   "pitch": "Compare scenario totals in a stacked chart, then trace each variance between scenarios.",
   "question": "How does the mix and total change between scenarios?",
-  "useWhen": "Compare the parts and totals of a metric across plans, periods, or alternatives.",
+  "useWhen": "Compare scenario totals across plans or periods.",
+  "purposes": ["variance", "composition"],
   "features": [
-    "Compare stacked scenario totals with a bridge and callout for each configured pair.",
-    "View colored segments with values, shares where they apply, and a net total.",
-    "Choose measure or dimension scenarios and set comparison pairs in the property panel.",
-    "Use presets to compare one scenario with others or compare adjacent scenarios.",
-    "Select segments to filter the app; enable scenario selection for dimension mode.",
-    "Use arrow keys to move through segments and comparisons; press Enter or Space to select a segment."
+    "Compare stacked scenario totals with a bridge and callout for each pair.",
+    "View colored segments, values, shares where they apply, and each net total.",
+    "Choose measures or dimension values for scenarios in the property panel.",
+    "Set comparison pairs or choose a preset for the scenarios.",
+    "Select segments to filter the app; allow scenario selection in dimension mode.",
+    "Navigate segments and comparisons with arrow keys; select a segment with Enter or Space."
   ],
   "hero": {
-    "file": "images/hero.jpg",
-    "alt": "Three stacked scenarios with a three-item legend, total labels, and two comparison callouts.",
-    "caption": "Compare three scenario totals and their segment mix."
+    "file": "images/overview.png",
+    "alt": "Six scenarios with stacked segments, total labels, and two positive comparison callouts.",
+    "caption": "Compare six scenario totals and their segment mix."
   },
   "screenshots": [
     {
-      "file": "images/screenshot-monthly-scenarios.jpg",
-      "alt": "Fourteen monthly scenarios with an Others segment, a full legend, and comparison callouts.",
-      "caption": "Dimension mode with fourteen monthly scenarios."
+      "file": "images/dimension-mode.png",
+      "alt": "Six scenarios from a dimension field, with stacked segments and positive comparison callouts.",
+      "caption": "Compare six scenarios from a dimension field."
     },
     {
-      "file": "images/screenshot-dark-negative-values.jpg",
-      "alt": "Three dark-theme scenarios with negative segments, clear total labels, and two comparison callouts.",
-      "caption": "Negative values and comparison callouts in a dark theme."
-    },
-    {
-      "file": "images/screenshot-narrow-layout.jpg",
-      "alt": "Three stacked scenarios, a full legend, totals, and two comparison callouts at 360 pixels wide.",
-      "caption": "All legend items and both callouts fit at 360 pixels wide."
-    },
-    {
-      "file": "images/screenshot-very-narrow-layout.jpg",
-      "alt": "At 240 pixels wide, three scenarios, a two-row legend, totals, and two compact comparisons remain visible.",
-      "caption": "The compact layout keeps the legend and both comparisons visible."
+      "file": "images/negative-values.png",
+      "alt": "Six scenarios with segment values, including one negative segment and positive callouts.",
+      "caption": "See labeled segment values when one scenario includes a negative value."
     }
   ],
   "shortlinks": [

@@ -1,11 +1,16 @@
-# Version 0.1.3
+## New
 
-This release updates the product branding and improves chart layout in short chart objects.
+None in this release.
 
-## Branding
+## Changed
 
-The About panel names the product and publisher.
+- The About panel names the product and publisher.
+- Short chart objects keep value labels clear in light and dark themes.
 
-## Layout
+## Fixed
 
-Short chart objects keep value labels clear in light and dark themes.
+None in this release.
+
+## Before you upgrade
+
+No action is needed.
