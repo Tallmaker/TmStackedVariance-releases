@@ -1,35 +1,76 @@
 {
   "name": "Tm Stacked Variance",
-  "pitch": "Compare scenario totals in a stacked chart, then trace each variance between scenarios.",
-  "question": "How does the mix and total change between scenarios?",
+  "pitch": "See what each scenario is made of, and exactly where the total moved.",
+  "question": "Why did the total change between scenarios?",
   "useWhen": "Compare scenario totals across plans or periods.",
-  "purposes": ["variance", "composition"],
-  "features": [
-    "Compare stacked scenario totals with a bridge and callout for each pair.",
-    "View colored segments, values, shares where they apply, and each net total.",
-    "Choose measures or dimension values for scenarios in the property panel.",
-    "Set comparison pairs or choose a preset for the scenarios.",
-    "Select segments to filter the app; allow scenario selection in dimension mode.",
-    "Navigate segments and comparisons with arrow keys; select a segment with Enter or Space."
+  "purposes": [
+    "variance",
+    "composition"
   ],
   "hero": {
-    "file": "images/overview.png",
-    "alt": "Six scenarios with stacked segments, total labels, and two positive comparison callouts.",
-    "caption": "Compare six scenario totals and their segment mix."
+    "file": "images/hero-six-scenarios.png",
+    "alt": "Six scenarios as stacked columns with totals and green or red variance callouts between neighbors.",
+    "caption": "Six scenarios, their mix, and every change in between."
   },
   "screenshots": [
     {
-      "file": "images/dimension-mode.png",
-      "alt": "Six scenarios from a dimension field, with stacked segments and positive comparison callouts.",
-      "caption": "Compare six scenarios from a dimension field."
+      "file": "images/gallery-stepped-bridges.png",
+      "alt": "Three scenarios joined by stepped bridges with signed variance callouts.",
+      "caption": "Stepped bridges link each total to the next."
     },
     {
-      "file": "images/negative-values.png",
-      "alt": "Six scenarios with segment values, including one negative segment and positive callouts.",
-      "caption": "See labeled segment values when one scenario includes a negative value."
+      "file": "images/gallery-sloped-bridges.png",
+      "alt": "Three scenarios joined by sloped bridges with signed variance callouts.",
+      "caption": "Sloped bridges show the direction of each change."
     }
   ],
   "shortlinks": [
     "tmstackedvariance"
+  ],
+  "questions": [
+    "Which segment drove the gap to plan?",
+    "How does the mix differ between scenarios?",
+    "Is the change good or bad news?"
+  ],
+  "audience": "Finance, planning and BI teams comparing plans, forecasts and alternatives.",
+  "featureStrips": [
+    {
+      "heading": "Totals side by side",
+      "text": "Every scenario is a stack with its net total on top, so the size of each plan is clear at once.",
+      "image": "images/totals-side-by-side.png"
+    },
+    {
+      "heading": "Variance between scenarios",
+      "text": "Bridges and callouts show the signed change and percentage, green for better and red for worse.",
+      "image": "images/variance-callouts.png"
+    },
+    {
+      "heading": "Gains and losses in one stack",
+      "text": "Negative segments draw below the line, and the total is the net sum.",
+      "image": "images/negative-values.png"
+    },
+    {
+      "heading": "Compare in the order you need",
+      "text": "Compare left to right, right to left, or outwards from a base scenario.",
+      "image": "images/compare-direction.png"
+    },
+    {
+      "heading": "Many segments stay readable",
+      "text": "Smaller segments group into Others, so eight product lines and more stay easy to read.",
+      "image": "images/many-segments.png"
+    },
+    {
+      "heading": "Shares inside each scenario",
+      "text": "Turn on percentage labels to see how each segment's share moves between scenarios.",
+      "image": "images/segment-shares.png"
+    }
+  ],
+  "features": [
+    "See every scenario as a stack with its net total on top.",
+    "Read signed variance and percentage between scenarios in a callout.",
+    "Gains and losses stack on both sides of the zero line.",
+    "Compare left to right, right to left, or outwards from a base scenario.",
+    "Group smaller segments into Others to keep many segments readable.",
+    "Click a segment to filter the rest of the sheet."
   ]
 }
